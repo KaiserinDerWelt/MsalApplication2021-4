@@ -1,0 +1,47 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.8",
+    "version": "1.0.0",
+    "id": "2b4335b9-97bc-47df-aa23-2f948bbc2717",
+    "packageName": "com.microsoft.teams.extension",
+    "developer": {
+        "name": "Teams App, Inc.",
+        "websiteUrl": "https://msal.teamstab",
+        "privacyUrl": "https://msal.teamstab/privacy",
+        "termsOfUseUrl": "https://msal.teamstab/termsofuse"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "MsalApplication2021-4",
+        "full": ""
+    },
+    "description": {
+        "short": "Short description for Channel Group Tab.",
+        "full": "Full description of Channel Group Tab."
+    },
+    "accentColor": "#FFFFFF",
+    "configurableTabs": [
+        {
+            "configurationUrl": "https://msal.teamstab/config",
+            "canUpdateConfiguration": true,
+            "scopes": [
+                "team",
+                "groupchat"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "msal.teamstab"
+    ],
+    "webApplicationInfo": {
+        "id": "350b019b-8505-41f1-866c-931fb0a04843",
+        "resource": "api://msal.teamstab/350b019b-8505-41f1-866c-931fb0a04843"
+    }
+}
